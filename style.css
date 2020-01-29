@@ -1,0 +1,125 @@
+/* Colors and fonts*/
+body {
+	background: #BBE1FA;
+	color: #575F7D;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #1B262C;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #0F4C75;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6EB5F3;
+	font-weight: 600;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: black;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 675px) {
+  .container {
+    width: 575px;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (max-width: 625px) {
+  .container {
+    width: 525px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+  .img-border {
+  	width: 350px;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    width: 450px;
+  }
+  .img-border {
+  	width: 300px;
+  }
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #6EB5F3;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #3282B8;
+	color: white;
+}
+.img-border {
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #BBE1FA;
+}
+.list-inline i:hover {
+	color: #3282B8;
+}
+
+
+/* Design adjustments using id */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
